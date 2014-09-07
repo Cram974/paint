@@ -1,13 +1,13 @@
-public class Vector2D {
+public class Point {
     int x;
     int y;
 
-    public Vector2D(){
+    public Point(){
         this.x = 0;
         this.y = 0;
     }
 
-    public Vector2D(int x, int y){
+    public Point(int x, int y){
         this.x = x;
         this.y = y;
     }
